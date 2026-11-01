@@ -1,0 +1,115 @@
+EQY 18:01:31 [<code>/eqy/pmux_case04_feedback/work] read_gold: starting process "yosys -ql <code>/eqy/pmux_case04_feedback/work/gold.log <code>/eqy/pmux_case04_feedback/work/gold.ys"
+EQY 18:01:31 [<code>/eqy/pmux_case04_feedback/work] read_gold: finished (returncode=0)
+EQY 18:01:31 [<code>/eqy/pmux_case04_feedback/work] read_gate: starting process "yosys -ql <code>/eqy/pmux_case04_feedback/work/gate.log <code>/eqy/pmux_case04_feedback/work/gate.ys"
+EQY 18:01:31 [<code>/eqy/pmux_case04_feedback/work] read_gate: finished (returncode=0)
+EQY 18:01:32 [<code>/eqy/pmux_case04_feedback/work] combine: starting process "yosys -ql <code>/eqy/pmux_case04_feedback/work/combine.log <code>/eqy/pmux_case04_feedback/work/combine.ys"
+EQY 18:01:32 [<code>/eqy/pmux_case04_feedback/work] combine: finished (returncode=0)
+EQY 18:01:32 [<code>/eqy/pmux_case04_feedback/work] partition: starting process "cd <code>/eqy/pmux_case04_feedback/work; yosys -ql partition.log partition.ys"
+EQY 18:01:33 [<code>/eqy/pmux_case04_feedback/work] partition: finished (returncode=0)
+EQY 18:01:34 [<code>/eqy/pmux_case04_feedback/work] run: starting process "make -C <code>/eqy/pmux_case04_feedback/work -f strategies.mk"
+EQY 18:01:34 [<code>/eqy/pmux_case04_feedback/work] run: make: Entering directory '<code>/eqy/pmux_case04_feedback/work'
+EQY 18:01:34 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.0'..
+EQY 18:01:34 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.0' using strategy 'sat'
+EQY 18:01:34 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.1'..
+EQY 18:01:35 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.1' using strategy 'sat'
+EQY 18:01:35 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.10'..
+EQY 18:01:35 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.10' using strategy 'sat'
+EQY 18:01:35 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.11'..
+EQY 18:01:35 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.11' using strategy 'sat'
+EQY 18:01:35 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.12'..
+EQY 18:01:36 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.12' using strategy 'sat'
+EQY 18:01:36 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.13'..
+EQY 18:01:36 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.13' using strategy 'sat'
+EQY 18:01:36 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.14'..
+EQY 18:01:36 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.14' using strategy 'sat'
+EQY 18:01:36 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.15'..
+EQY 18:01:37 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.15' using strategy 'sat'
+EQY 18:01:37 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.2'..
+EQY 18:01:37 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.2' using strategy 'sat'
+EQY 18:01:37 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.3'..
+EQY 18:01:37 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.3' using strategy 'sat'
+EQY 18:01:37 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.4'..
+EQY 18:01:38 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.4' using strategy 'sat'
+EQY 18:01:38 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.5'..
+EQY 18:01:38 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.5' using strategy 'sat'
+EQY 18:01:38 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.6'..
+EQY 18:01:38 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.6' using strategy 'sat'
+EQY 18:01:38 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.7'..
+EQY 18:01:39 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.7' using strategy 'sat'
+EQY 18:01:39 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.8'..
+EQY 18:01:39 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.8' using strategy 'sat'
+EQY 18:01:39 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.data_out.9'..
+EQY 18:01:39 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.data_out.9' using strategy 'sat'
+EQY 18:01:40 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.0.next_q.0'..
+EQY 18:01:40 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.0.next_q.0' using strategy 'sat'
+EQY 18:01:40 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.0.next_q.1'..
+EQY 18:01:40 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.0.next_q.1' using strategy 'sat'
+EQY 18:01:40 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.0.next_q.2'..
+EQY 18:01:41 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.0.next_q.2' using strategy 'sat'
+EQY 18:01:41 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.0.next_q.3'..
+EQY 18:01:41 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.0.next_q.3' using strategy 'sat'
+EQY 18:01:41 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.0.next_q.4'..
+EQY 18:01:41 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.0.next_q.4' using strategy 'sat'
+EQY 18:01:41 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.0.next_q.5'..
+EQY 18:01:42 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.0.next_q.5' using strategy 'sat'
+EQY 18:01:42 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.0.next_q.6'..
+EQY 18:01:42 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.0.next_q.6' using strategy 'sat'
+EQY 18:01:42 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.0.next_q.7'..
+EQY 18:01:42 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.0.next_q.7' using strategy 'sat'
+EQY 18:01:43 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.1.next_q.0'..
+EQY 18:01:43 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.1.next_q.0' using strategy 'sat'
+EQY 18:01:43 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.1.next_q.1'..
+EQY 18:01:43 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.1.next_q.1' using strategy 'sat'
+EQY 18:01:43 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.1.next_q.2'..
+EQY 18:01:44 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.1.next_q.2' using strategy 'sat'
+EQY 18:01:44 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.1.next_q.3'..
+EQY 18:01:44 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.1.next_q.3' using strategy 'sat'
+EQY 18:01:44 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.1.next_q.4'..
+EQY 18:01:44 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.1.next_q.4' using strategy 'sat'
+EQY 18:01:44 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.1.next_q.5'..
+EQY 18:01:45 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.1.next_q.5' using strategy 'sat'
+EQY 18:01:45 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.1.next_q.6'..
+EQY 18:01:45 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.1.next_q.6' using strategy 'sat'
+EQY 18:01:45 [<code>/eqy/pmux_case04_feedback/work] run: Running strategy 'sat' on 'pmux_case04_feedback.lane.1.next_q.7'..
+EQY 18:01:45 [<code>/eqy/pmux_case04_feedback/work] run: Proved equivalence of partition 'pmux_case04_feedback.lane.1.next_q.7' using strategy 'sat'
+EQY 18:01:45 [<code>/eqy/pmux_case04_feedback/work] run: make -f strategies.mk summary
+EQY 18:01:45 [<code>/eqy/pmux_case04_feedback/work] run: make[1]: Entering directory '<code>/eqy/pmux_case04_feedback/work'
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] run: make[1]: Leaving directory '<code>/eqy/pmux_case04_feedback/work'
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] run: make: Leaving directory '<code>/eqy/pmux_case04_feedback/work'
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] run: finished (returncode=0)
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.1.next_q.7
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.1.next_q.6
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.1.next_q.5
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.1.next_q.4
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.1.next_q.3
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.1.next_q.2
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.1.next_q.1
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.1.next_q.0
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.0.next_q.7
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.0.next_q.6
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.0.next_q.5
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.0.next_q.4
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.0.next_q.3
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.0.next_q.2
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.0.next_q.1
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.lane.0.next_q.0
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.15
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.14
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.13
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.12
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.11
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.10
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.9
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.8
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.7
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.6
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.5
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.4
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.3
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.2
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.1
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved equivalence of partition pmux_case04_feedback.data_out.0
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] Successfully proved designs equivalent
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:14 (14)
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:02 (2)
+EQY 18:01:46 [<code>/eqy/pmux_case04_feedback/work] DONE (PASS, rc=0)

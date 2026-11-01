@@ -1,0 +1,13 @@
+[options]
+
+[gold]
+read_rtlil <code>/eqy/test2/gold.ilang
+prep -top test2
+
+[gate]
+read_rtlil <code>/eqy/test2/gate.ilang
+prep -top test2
+
+[strategy sat]
+use sat
+depth 20

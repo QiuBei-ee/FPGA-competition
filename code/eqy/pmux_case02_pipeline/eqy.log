@@ -1,0 +1,91 @@
+EQY 18:01:14 [<code>/eqy/pmux_case02_pipeline/work] read_gold: starting process "yosys -ql <code>/eqy/pmux_case02_pipeline/work/gold.log <code>/eqy/pmux_case02_pipeline/work/gold.ys"
+EQY 18:01:14 [<code>/eqy/pmux_case02_pipeline/work] read_gold: finished (returncode=0)
+EQY 18:01:14 [<code>/eqy/pmux_case02_pipeline/work] read_gate: starting process "yosys -ql <code>/eqy/pmux_case02_pipeline/work/gate.log <code>/eqy/pmux_case02_pipeline/work/gate.ys"
+EQY 18:01:14 [<code>/eqy/pmux_case02_pipeline/work] read_gate: finished (returncode=0)
+EQY 18:01:14 [<code>/eqy/pmux_case02_pipeline/work] combine: starting process "yosys -ql <code>/eqy/pmux_case02_pipeline/work/combine.log <code>/eqy/pmux_case02_pipeline/work/combine.ys"
+EQY 18:01:15 [<code>/eqy/pmux_case02_pipeline/work] combine: finished (returncode=0)
+EQY 18:01:15 [<code>/eqy/pmux_case02_pipeline/work] partition: starting process "cd <code>/eqy/pmux_case02_pipeline/work; yosys -ql partition.log partition.ys"
+EQY 18:01:16 [<code>/eqy/pmux_case02_pipeline/work] partition: finished (returncode=0)
+EQY 18:01:16 [<code>/eqy/pmux_case02_pipeline/work] run: starting process "make -C <code>/eqy/pmux_case02_pipeline/work -f strategies.mk"
+EQY 18:01:16 [<code>/eqy/pmux_case02_pipeline/work] run: make: Entering directory '<code>/eqy/pmux_case02_pipeline/work'
+EQY 18:01:16 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.data_out.0'..
+EQY 18:01:17 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.data_out.0' using strategy 'sat'
+EQY 18:01:17 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.data_out.1'..
+EQY 18:01:17 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.data_out.1' using strategy 'sat'
+EQY 18:01:17 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.data_out.10'..
+EQY 18:01:17 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.data_out.10' using strategy 'sat'
+EQY 18:01:17 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.data_out.11'..
+EQY 18:01:18 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.data_out.11' using strategy 'sat'
+EQY 18:01:18 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.data_out.2'..
+EQY 18:01:18 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.data_out.2' using strategy 'sat'
+EQY 18:01:18 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.data_out.3'..
+EQY 18:01:19 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.data_out.3' using strategy 'sat'
+EQY 18:01:19 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.data_out.4'..
+EQY 18:01:19 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.data_out.4' using strategy 'sat'
+EQY 18:01:19 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.data_out.5'..
+EQY 18:01:19 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.data_out.5' using strategy 'sat'
+EQY 18:01:19 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.data_out.6'..
+EQY 18:01:20 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.data_out.6' using strategy 'sat'
+EQY 18:01:20 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.data_out.7'..
+EQY 18:01:20 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.data_out.7' using strategy 'sat'
+EQY 18:01:20 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.data_out.8'..
+EQY 18:01:20 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.data_out.8' using strategy 'sat'
+EQY 18:01:20 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.data_out.9'..
+EQY 18:01:21 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.data_out.9' using strategy 'sat'
+EQY 18:01:21 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.lane.0.left_mid.0'..
+EQY 18:01:21 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.lane.0.left_mid.0' using strategy 'sat'
+EQY 18:01:21 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.lane.0.left_mid.1'..
+EQY 18:01:21 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.lane.0.left_mid.1' using strategy 'sat'
+EQY 18:01:21 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.lane.0.left_mid.2'..
+EQY 18:01:22 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.lane.0.left_mid.2' using strategy 'sat'
+EQY 18:01:22 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.lane.0.mid.0'..
+EQY 18:01:22 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.lane.0.mid.0' using strategy 'sat'
+EQY 18:01:22 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.lane.0.mid.1'..
+EQY 18:01:22 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.lane.0.mid.1' using strategy 'sat'
+EQY 18:01:22 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.lane.0.mid.2'..
+EQY 18:01:23 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.lane.0.mid.2' using strategy 'sat'
+EQY 18:01:23 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.lane.0.right_mid.0'..
+EQY 18:01:23 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.lane.0.right_mid.0' using strategy 'sat'
+EQY 18:01:23 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.lane.0.right_mid.1'..
+EQY 18:01:23 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.lane.0.right_mid.1' using strategy 'sat'
+EQY 18:01:23 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.lane.0.right_mid.2'..
+EQY 18:01:24 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.lane.0.right_mid.2' using strategy 'sat'
+EQY 18:01:24 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.lane.1.right_mid.0'..
+EQY 18:01:24 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.lane.1.right_mid.0' using strategy 'sat'
+EQY 18:01:24 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.lane.1.right_mid.1'..
+EQY 18:01:24 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.lane.1.right_mid.1' using strategy 'sat'
+EQY 18:01:24 [<code>/eqy/pmux_case02_pipeline/work] run: Running strategy 'sat' on 'pmux_case02_pipeline.lane.1.right_mid.2'..
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] run: Proved equivalence of partition 'pmux_case02_pipeline.lane.1.right_mid.2' using strategy 'sat'
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] run: make -f strategies.mk summary
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] run: make[1]: Entering directory '<code>/eqy/pmux_case02_pipeline/work'
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] run: make[1]: Leaving directory '<code>/eqy/pmux_case02_pipeline/work'
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] run: make: Leaving directory '<code>/eqy/pmux_case02_pipeline/work'
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] run: finished (returncode=0)
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.lane.1.right_mid.2
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.lane.1.right_mid.1
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.lane.1.right_mid.0
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.lane.0.right_mid.2
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.lane.0.right_mid.1
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.lane.0.right_mid.0
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.lane.0.mid.2
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.lane.0.mid.1
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.lane.0.mid.0
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.lane.0.left_mid.2
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.lane.0.left_mid.1
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.lane.0.left_mid.0
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.data_out.11
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.data_out.10
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.data_out.9
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.data_out.8
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.data_out.7
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.data_out.6
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.data_out.5
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.data_out.4
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.data_out.3
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.data_out.2
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.data_out.1
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved equivalence of partition pmux_case02_pipeline.data_out.0
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] Successfully proved designs equivalent
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:11 (11)
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:01 (1)
+EQY 18:01:25 [<code>/eqy/pmux_case02_pipeline/work] DONE (PASS, rc=0)

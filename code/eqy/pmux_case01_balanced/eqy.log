@@ -1,0 +1,55 @@
+EQY 18:01:07 [<code>/eqy/pmux_case01_balanced/work] read_gold: starting process "yosys -ql <code>/eqy/pmux_case01_balanced/work/gold.log <code>/eqy/pmux_case01_balanced/work/gold.ys"
+EQY 18:01:07 [<code>/eqy/pmux_case01_balanced/work] read_gold: finished (returncode=0)
+EQY 18:01:07 [<code>/eqy/pmux_case01_balanced/work] read_gate: starting process "yosys -ql <code>/eqy/pmux_case01_balanced/work/gate.log <code>/eqy/pmux_case01_balanced/work/gate.ys"
+EQY 18:01:08 [<code>/eqy/pmux_case01_balanced/work] read_gate: finished (returncode=0)
+EQY 18:01:08 [<code>/eqy/pmux_case01_balanced/work] combine: starting process "yosys -ql <code>/eqy/pmux_case01_balanced/work/combine.log <code>/eqy/pmux_case01_balanced/work/combine.ys"
+EQY 18:01:08 [<code>/eqy/pmux_case01_balanced/work] combine: finished (returncode=0)
+EQY 18:01:08 [<code>/eqy/pmux_case01_balanced/work] partition: starting process "cd <code>/eqy/pmux_case01_balanced/work; yosys -ql partition.log partition.ys"
+EQY 18:01:08 [<code>/eqy/pmux_case01_balanced/work] partition: finished (returncode=0)
+EQY 18:01:09 [<code>/eqy/pmux_case01_balanced/work] run: starting process "make -C <code>/eqy/pmux_case01_balanced/work -f strategies.mk"
+EQY 18:01:09 [<code>/eqy/pmux_case01_balanced/work] run: make: Entering directory '<code>/eqy/pmux_case01_balanced/work'
+EQY 18:01:09 [<code>/eqy/pmux_case01_balanced/work] run: Running strategy 'sat' on 'pmux_case01_balanced.data_out.0'..
+EQY 18:01:09 [<code>/eqy/pmux_case01_balanced/work] run: Proved equivalence of partition 'pmux_case01_balanced.data_out.0' using strategy 'sat'
+EQY 18:01:09 [<code>/eqy/pmux_case01_balanced/work] run: Running strategy 'sat' on 'pmux_case01_balanced.data_out.1'..
+EQY 18:01:10 [<code>/eqy/pmux_case01_balanced/work] run: Proved equivalence of partition 'pmux_case01_balanced.data_out.1' using strategy 'sat'
+EQY 18:01:10 [<code>/eqy/pmux_case01_balanced/work] run: Running strategy 'sat' on 'pmux_case01_balanced.data_out.10'..
+EQY 18:01:10 [<code>/eqy/pmux_case01_balanced/work] run: Proved equivalence of partition 'pmux_case01_balanced.data_out.10' using strategy 'sat'
+EQY 18:01:10 [<code>/eqy/pmux_case01_balanced/work] run: Running strategy 'sat' on 'pmux_case01_balanced.data_out.11'..
+EQY 18:01:10 [<code>/eqy/pmux_case01_balanced/work] run: Proved equivalence of partition 'pmux_case01_balanced.data_out.11' using strategy 'sat'
+EQY 18:01:10 [<code>/eqy/pmux_case01_balanced/work] run: Running strategy 'sat' on 'pmux_case01_balanced.data_out.2'..
+EQY 18:01:11 [<code>/eqy/pmux_case01_balanced/work] run: Proved equivalence of partition 'pmux_case01_balanced.data_out.2' using strategy 'sat'
+EQY 18:01:11 [<code>/eqy/pmux_case01_balanced/work] run: Running strategy 'sat' on 'pmux_case01_balanced.data_out.3'..
+EQY 18:01:11 [<code>/eqy/pmux_case01_balanced/work] run: Proved equivalence of partition 'pmux_case01_balanced.data_out.3' using strategy 'sat'
+EQY 18:01:11 [<code>/eqy/pmux_case01_balanced/work] run: Running strategy 'sat' on 'pmux_case01_balanced.data_out.4'..
+EQY 18:01:12 [<code>/eqy/pmux_case01_balanced/work] run: Proved equivalence of partition 'pmux_case01_balanced.data_out.4' using strategy 'sat'
+EQY 18:01:12 [<code>/eqy/pmux_case01_balanced/work] run: Running strategy 'sat' on 'pmux_case01_balanced.data_out.5'..
+EQY 18:01:12 [<code>/eqy/pmux_case01_balanced/work] run: Proved equivalence of partition 'pmux_case01_balanced.data_out.5' using strategy 'sat'
+EQY 18:01:12 [<code>/eqy/pmux_case01_balanced/work] run: Running strategy 'sat' on 'pmux_case01_balanced.data_out.6'..
+EQY 18:01:13 [<code>/eqy/pmux_case01_balanced/work] run: Proved equivalence of partition 'pmux_case01_balanced.data_out.6' using strategy 'sat'
+EQY 18:01:13 [<code>/eqy/pmux_case01_balanced/work] run: Running strategy 'sat' on 'pmux_case01_balanced.data_out.7'..
+EQY 18:01:13 [<code>/eqy/pmux_case01_balanced/work] run: Proved equivalence of partition 'pmux_case01_balanced.data_out.7' using strategy 'sat'
+EQY 18:01:13 [<code>/eqy/pmux_case01_balanced/work] run: Running strategy 'sat' on 'pmux_case01_balanced.data_out.8'..
+EQY 18:01:13 [<code>/eqy/pmux_case01_balanced/work] run: Proved equivalence of partition 'pmux_case01_balanced.data_out.8' using strategy 'sat'
+EQY 18:01:13 [<code>/eqy/pmux_case01_balanced/work] run: Running strategy 'sat' on 'pmux_case01_balanced.data_out.9'..
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] run: Proved equivalence of partition 'pmux_case01_balanced.data_out.9' using strategy 'sat'
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] run: make -f strategies.mk summary
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] run: make[1]: Entering directory '<code>/eqy/pmux_case01_balanced/work'
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] run: make[1]: Leaving directory '<code>/eqy/pmux_case01_balanced/work'
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] run: make: Leaving directory '<code>/eqy/pmux_case01_balanced/work'
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] run: finished (returncode=0)
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] Successfully proved equivalence of partition pmux_case01_balanced.data_out.11
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] Successfully proved equivalence of partition pmux_case01_balanced.data_out.10
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] Successfully proved equivalence of partition pmux_case01_balanced.data_out.9
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] Successfully proved equivalence of partition pmux_case01_balanced.data_out.8
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] Successfully proved equivalence of partition pmux_case01_balanced.data_out.7
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] Successfully proved equivalence of partition pmux_case01_balanced.data_out.6
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] Successfully proved equivalence of partition pmux_case01_balanced.data_out.5
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] Successfully proved equivalence of partition pmux_case01_balanced.data_out.4
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] Successfully proved equivalence of partition pmux_case01_balanced.data_out.3
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] Successfully proved equivalence of partition pmux_case01_balanced.data_out.2
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] Successfully proved equivalence of partition pmux_case01_balanced.data_out.1
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] Successfully proved equivalence of partition pmux_case01_balanced.data_out.0
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] Successfully proved designs equivalent
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:06 (6)
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:01 (1)
+EQY 18:01:14 [<code>/eqy/pmux_case01_balanced/work] DONE (PASS, rc=0)

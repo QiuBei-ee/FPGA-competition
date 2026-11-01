@@ -1,0 +1,21 @@
+PMUX optimization two-arm comparison (Yosys 0.69, synth_intel -family cycloneiv)
+base: ../bin/original/yosys
+opt : ../bin/optimized/yosys
+cases: ../cases
+
+case                       LUT_base LUT_opt    dLUT     cut% FF_base FF_opt
+test1                          286     286       0     0.00    222    222
+test2                           25      25       0     0.00      0      0
+test3                           12      12       0     0.00     17     17
+test4                           35      34       1     2.86     10     10
+pmux_case01_balanced           426     392      34     7.98     12     12
+pmux_case02_pipeline           450     450       0     0.00     24     24
+pmux_case03_crossbar           408     373      35     8.58     10     10
+pmux_case04_feedback           367     362       5     1.36     16     16
+pmux_case05_nested             413     405       8     1.94     12     12
+
+TOTAL LUT: base=2422 opt=2339  total reduction=3.43%
+PER-CASE ARITHMETIC AVERAGE reduction: 2.52%  (n=9)
+
+[OK] 所有用例 LUT 均未反增。
+[OK] 所有用例 FF 未增加。

@@ -1,0 +1,18 @@
+Efficiency comparison (5-run average, wall-clock s / main-process peak RSS MB)
+base: ../bin/original/yosys
+opt : ../bin/optimized/yosys
+
+case                          t_base     t_opt t_ratio     mem_b     mem_o mem_ratio  verdict
+test1                          0.824     0.858   1.041    27.011    27.155   1.005  OK
+test2                          0.630     0.656   1.041    21.463    21.526   1.003  OK
+test3                          0.684     0.694   1.015    22.205    22.003   0.991  OK
+test4                          0.704     0.730   1.037    22.599    22.723   1.005  OK
+pmux_case01_balanced           0.906     0.942   1.040    28.197    27.316   0.969  OK
+pmux_case02_pipeline           0.936     0.964   1.030    29.434    29.445   1.000  OK
+pmux_case03_crossbar           0.914     0.984   1.077    27.159    27.036   0.995  WARN(>5%)
+pmux_case04_feedback           0.844     0.916   1.085    26.246    26.631   1.015  WARN(>5%)
+pmux_case05_nested             0.904     0.954   1.055    27.084    26.990   0.997  WARN(>5%)
+
+TOTAL                          7.346     7.698   1.048   231.398   230.825   0.998
+
+Threshold: <=1.05 full mark; >1.05 warn; >1.15 no score for that case (either metric).

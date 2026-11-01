@@ -1,0 +1,11 @@
+--- a/techlibs/intel/synth_intel.cc
++++ b/techlibs/intel/synth_intel.cc
+@@ -251,6 +251,8 @@
+ 			run("opt -fast -mux_undef -undriven -fine -full");
+ 			run("memory_map");
+ 			run("opt -undriven -fine");
++			run("pmux_opt");
++			run(stringf("techmap -map +/intel/%s/cells_arith.v", family_opt));
+ 			run("techmap -map +/techmap.v");
+ 			run("opt -full");
+ 			run("clean -purge");

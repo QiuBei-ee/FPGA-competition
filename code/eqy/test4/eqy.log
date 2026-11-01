@@ -1,0 +1,49 @@
+EQY 18:01:02 [<code>/eqy/test4/work] read_gold: starting process "yosys -ql <code>/eqy/test4/work/gold.log <code>/eqy/test4/work/gold.ys"
+EQY 18:01:02 [<code>/eqy/test4/work] read_gold: finished (returncode=0)
+EQY 18:01:02 [<code>/eqy/test4/work] read_gate: starting process "yosys -ql <code>/eqy/test4/work/gate.log <code>/eqy/test4/work/gate.ys"
+EQY 18:01:02 [<code>/eqy/test4/work] read_gate: finished (returncode=0)
+EQY 18:01:02 [<code>/eqy/test4/work] combine: starting process "yosys -ql <code>/eqy/test4/work/combine.log <code>/eqy/test4/work/combine.ys"
+EQY 18:01:02 [<code>/eqy/test4/work] combine: finished (returncode=0)
+EQY 18:01:02 [<code>/eqy/test4/work] partition: starting process "cd <code>/eqy/test4/work; yosys -ql partition.log partition.ys"
+EQY 18:01:03 [<code>/eqy/test4/work] partition: finished (returncode=0)
+EQY 18:01:03 [<code>/eqy/test4/work] run: starting process "make -C <code>/eqy/test4/work -f strategies.mk"
+EQY 18:01:03 [<code>/eqy/test4/work] run: make: Entering directory '<code>/eqy/test4/work'
+EQY 18:01:03 [<code>/eqy/test4/work] run: Running strategy 'sat' on 'test4.data_dn'..
+EQY 18:01:04 [<code>/eqy/test4/work] run: Proved equivalence of partition 'test4.data_dn' using strategy 'sat'
+EQY 18:01:04 [<code>/eqy/test4/work] run: Running strategy 'sat' on 'test4.data_dp'..
+EQY 18:01:04 [<code>/eqy/test4/work] run: Proved equivalence of partition 'test4.data_dp' using strategy 'sat'
+EQY 18:01:04 [<code>/eqy/test4/work] run: Running strategy 'sat' on 'test4.datain_5bis7'..
+EQY 18:01:04 [<code>/eqy/test4/work] run: Proved equivalence of partition 'test4.datain_5bis7' using strategy 'sat'
+EQY 18:01:04 [<code>/eqy/test4/work] run: Running strategy 'sat' on 'test4.dataout.0'..
+EQY 18:01:05 [<code>/eqy/test4/work] run: Proved equivalence of partition 'test4.dataout.0' using strategy 'sat'
+EQY 18:01:05 [<code>/eqy/test4/work] run: Running strategy 'sat' on 'test4.dataout.1'..
+EQY 18:01:05 [<code>/eqy/test4/work] run: Proved equivalence of partition 'test4.dataout.1' using strategy 'sat'
+EQY 18:01:05 [<code>/eqy/test4/work] run: Running strategy 'sat' on 'test4.dataout.2'..
+EQY 18:01:05 [<code>/eqy/test4/work] run: Proved equivalence of partition 'test4.dataout.2' using strategy 'sat'
+EQY 18:01:05 [<code>/eqy/test4/work] run: Running strategy 'sat' on 'test4.dataout.3'..
+EQY 18:01:06 [<code>/eqy/test4/work] run: Proved equivalence of partition 'test4.dataout.3' using strategy 'sat'
+EQY 18:01:06 [<code>/eqy/test4/work] run: Running strategy 'sat' on 'test4.dataout.4'..
+EQY 18:01:06 [<code>/eqy/test4/work] run: Proved equivalence of partition 'test4.dataout.4' using strategy 'sat'
+EQY 18:01:06 [<code>/eqy/test4/work] run: Running strategy 'sat' on 'test4.dataout.5'..
+EQY 18:01:07 [<code>/eqy/test4/work] run: Proved equivalence of partition 'test4.dataout.5' using strategy 'sat'
+EQY 18:01:07 [<code>/eqy/test4/work] run: Running strategy 'sat' on 'test4.only_5b'..
+EQY 18:01:07 [<code>/eqy/test4/work] run: Proved equivalence of partition 'test4.only_5b' using strategy 'sat'
+EQY 18:01:07 [<code>/eqy/test4/work] run: make -f strategies.mk summary
+EQY 18:01:07 [<code>/eqy/test4/work] run: make[1]: Entering directory '<code>/eqy/test4/work'
+EQY 18:01:07 [<code>/eqy/test4/work] run: make[1]: Leaving directory '<code>/eqy/test4/work'
+EQY 18:01:07 [<code>/eqy/test4/work] run: make: Leaving directory '<code>/eqy/test4/work'
+EQY 18:01:07 [<code>/eqy/test4/work] run: finished (returncode=0)
+EQY 18:01:07 [<code>/eqy/test4/work] Successfully proved equivalence of partition test4.only_5b
+EQY 18:01:07 [<code>/eqy/test4/work] Successfully proved equivalence of partition test4.dataout.5
+EQY 18:01:07 [<code>/eqy/test4/work] Successfully proved equivalence of partition test4.dataout.4
+EQY 18:01:07 [<code>/eqy/test4/work] Successfully proved equivalence of partition test4.dataout.3
+EQY 18:01:07 [<code>/eqy/test4/work] Successfully proved equivalence of partition test4.dataout.2
+EQY 18:01:07 [<code>/eqy/test4/work] Successfully proved equivalence of partition test4.dataout.1
+EQY 18:01:07 [<code>/eqy/test4/work] Successfully proved equivalence of partition test4.dataout.0
+EQY 18:01:07 [<code>/eqy/test4/work] Successfully proved equivalence of partition test4.datain_5bis7
+EQY 18:01:07 [<code>/eqy/test4/work] Successfully proved equivalence of partition test4.data_dp
+EQY 18:01:07 [<code>/eqy/test4/work] Successfully proved equivalence of partition test4.data_dn
+EQY 18:01:07 [<code>/eqy/test4/work] Successfully proved designs equivalent
+EQY 18:01:07 [<code>/eqy/test4/work] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:04 (4)
+EQY 18:01:07 [<code>/eqy/test4/work] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+EQY 18:01:07 [<code>/eqy/test4/work] DONE (PASS, rc=0)

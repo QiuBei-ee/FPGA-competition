@@ -1,0 +1,13 @@
+[options]
+
+[gold]
+read_rtlil <code>/eqy/pmux_case01_balanced/gold.ilang
+prep -top pmux_case01_balanced
+
+[gate]
+read_rtlil <code>/eqy/pmux_case01_balanced/gate.ilang
+prep -top pmux_case01_balanced
+
+[strategy sat]
+use sat
+depth 20

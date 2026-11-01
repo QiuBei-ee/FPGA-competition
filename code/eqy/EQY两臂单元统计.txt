@@ -1,0 +1,10 @@
+case	gold_lut	gold_dff	gate_lut	gate_dff	export
+test1	288	222	288	222	ok
+test2	25	0	25	0	ok
+test3	13	17	13	17	ok
+test4	36	10	33	10	ok
+pmux_case01_balanced	412	12	395	12	ok
+pmux_case02_pipeline	448	24	448	24	ok
+pmux_case03_crossbar	406	10	389	10	ok
+pmux_case04_feedback	366	16	368	16	ok
+pmux_case05_nested	414	12	398	12	ok

@@ -1,0 +1,10 @@
+case	result	exit	elapsed_sec	conclusion
+test1	PASS	0	90	equivalent
+test2	PASS	0	3	equivalent
+test3	PASS	0	8	equivalent
+test4	PASS	0	5	equivalent
+pmux_case01_balanced	PASS	0	7	equivalent
+pmux_case02_pipeline	PASS	0	11	equivalent
+pmux_case03_crossbar	PASS	0	6	equivalent
+pmux_case04_feedback	PASS	0	15	equivalent
+pmux_case05_nested	PASS	0	7	equivalent

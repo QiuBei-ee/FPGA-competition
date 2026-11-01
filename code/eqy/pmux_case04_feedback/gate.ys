@@ -1,0 +1,51 @@
+# GATE arm: optimized 0.69 flow (R1 pmux_opt + route-D cells_arith + b4 built-in abc9 script),
+# stop right after abc9 LUT packing, export the $lut netlist as ilang for EQY.
+read_verilog -sv -lib +/intel/cycloneiv/cells_sim.v
+read_verilog -sv -lib +/intel/common/m9k_bb.v
+read_verilog -sv -lib +/intel/common/altpll_bb.v
+read_verilog <code>/cases/pmux_case04_feedback.v
+hierarchy -check -top pmux_case04_feedback
+proc
+check
+flatten
+tribuf -logic
+deminout
+opt_expr
+opt_clean
+check
+opt -nodffe -nosdff
+fsm
+opt
+wreduce
+peepopt
+opt_clean
+techmap -map +/cmp2lut.v -D LUT_WIDTH=4
+opt_expr
+opt_clean
+techmap -map +/mul2dsp.v -D DSP_A_MAXWIDTH=18 -D DSP_B_MAXWIDTH=18  -D DSP_A_MINWIDTH=10 -D DSP_B_MINWIDTH=4 -D DSP_NAME=$__MUL18X18
+chtype -set $mul t:$__soft_mul
+techmap -map +/mul2dsp.v -D DSP_A_MAXWIDTH=18 -D DSP_B_MAXWIDTH=18  -D DSP_A_MINWIDTH=4 -D DSP_B_MINWIDTH=10 -D DSP_NAME=$__MUL18X18
+chtype -set $mul t:$__soft_mul
+techmap -map +/mul2dsp.v -D DSP_A_MAXWIDTH=9 -D DSP_B_MAXWIDTH=9 -D DSP_A_MINWIDTH=4 -D DSP_B_MINWIDTH=4 -D DSP_NAME=$__MUL9X9
+chtype -set $mul t:$__soft_mul
+alumacc
+opt
+memory -nomap
+opt_clean
+opt -fast -mux_undef -undriven -fine -full
+memory_map
+opt -undriven -fine
+pmux_opt
+techmap -map +/intel/cycloneiv/cells_arith.v
+techmap -map +/techmap.v
+opt -full
+clean -purge
+setundef -undriven -zero
+dfflegalize -cell $_DFFE_PN0P_ 01
+# (ff_map.v intentionally skipped: keep standardized internal DFF cells that EQY recognizes)
+abc9 -lut 4 -W 300 -dff
+clean
+opt -fast
+# autoname skipped: keep source-derived hdlnames so EQY can match ports/regs
+clean
+write_rtlil <code>/eqy/pmux_case04_feedback/gate.ilang

@@ -1,0 +1,10 @@
+test1  PASS=1  DONE=1  files=[eqy.log gate.ilang gate.ys gold.ilang gold.ys test1.eqy]
+test2  PASS=1  DONE=1  files=[eqy.log gate.ilang gate.ys gold.ilang gold.ys test2.eqy]
+test3  PASS=1  DONE=1  files=[eqy.log gate.ilang gate.ys gold.ilang gold.ys test3.eqy]
+test4  PASS=1  DONE=1  files=[eqy.log gate.ilang gate.ys gold.ilang gold.ys test4.eqy]
+pmux_case01_balanced  PASS=1  DONE=1  files=[eqy.log gate.ilang gate.ys gold.ilang gold.ys pmux_case01_balanced.eqy]
+pmux_case02_pipeline  PASS=1  DONE=1  files=[eqy.log gate.ilang gate.ys gold.ilang gold.ys pmux_case02_pipeline.eqy]
+pmux_case03_crossbar  PASS=1  DONE=1  files=[eqy.log gate.ilang gate.ys gold.ilang gold.ys pmux_case03_crossbar.eqy]
+pmux_case04_feedback  PASS=1  DONE=1  files=[eqy.log gate.ilang gate.ys gold.ilang gold.ys pmux_case04_feedback.eqy]
+pmux_case05_nested  PASS=1  DONE=1  files=[eqy.log gate.ilang gate.ys gold.ilang gold.ys pmux_case05_nested.eqy]
+ALL_OK=1

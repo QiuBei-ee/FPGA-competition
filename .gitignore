@@ -1,0 +1,17 @@
+# WSL/Linux 两臂编译产物（yosys / yosys-abc / share 数据），
+# 由 code/scripts/build_yosys.sh 从干净 0.69 源码复现，不纳入版本库
+code/bin/
+build/
+build-original/
+build-optimized/
+
+# 编译中间文件
+*.o
+*.a
+*.so
+
+# 临时与系统文件
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

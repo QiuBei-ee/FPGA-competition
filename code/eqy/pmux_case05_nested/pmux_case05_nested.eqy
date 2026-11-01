@@ -1,0 +1,13 @@
+[options]
+
+[gold]
+read_rtlil <code>/eqy/pmux_case05_nested/gold.ilang
+prep -top pmux_case05_nested
+
+[gate]
+read_rtlil <code>/eqy/pmux_case05_nested/gate.ilang
+prep -top pmux_case05_nested
+
+[strategy sat]
+use sat
+depth 20

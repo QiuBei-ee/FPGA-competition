@@ -1,0 +1,34 @@
+EQY 18:00:51 [<code>/eqy/test2/work] read_gold: starting process "yosys -ql <code>/eqy/test2/work/gold.log <code>/eqy/test2/work/gold.ys"
+EQY 18:00:51 [<code>/eqy/test2/work] read_gold: finished (returncode=0)
+EQY 18:00:51 [<code>/eqy/test2/work] read_gate: starting process "yosys -ql <code>/eqy/test2/work/gate.log <code>/eqy/test2/work/gate.ys"
+EQY 18:00:51 [<code>/eqy/test2/work] read_gate: finished (returncode=0)
+EQY 18:00:51 [<code>/eqy/test2/work] combine: starting process "yosys -ql <code>/eqy/test2/work/combine.log <code>/eqy/test2/work/combine.ys"
+EQY 18:00:51 [<code>/eqy/test2/work] combine: finished (returncode=0)
+EQY 18:00:51 [<code>/eqy/test2/work] partition: starting process "cd <code>/eqy/test2/work; yosys -ql partition.log partition.ys"
+EQY 18:00:52 [<code>/eqy/test2/work] partition: finished (returncode=0)
+EQY 18:00:52 [<code>/eqy/test2/work] run: starting process "make -C <code>/eqy/test2/work -f strategies.mk"
+EQY 18:00:52 [<code>/eqy/test2/work] run: make: Entering directory '<code>/eqy/test2/work'
+EQY 18:00:52 [<code>/eqy/test2/work] run: Running strategy 'sat' on 'test2.out.0'..
+EQY 18:00:52 [<code>/eqy/test2/work] run: Proved equivalence of partition 'test2.out.0' using strategy 'sat'
+EQY 18:00:52 [<code>/eqy/test2/work] run: Running strategy 'sat' on 'test2.out.1'..
+EQY 18:00:52 [<code>/eqy/test2/work] run: Proved equivalence of partition 'test2.out.1' using strategy 'sat'
+EQY 18:00:52 [<code>/eqy/test2/work] run: Running strategy 'sat' on 'test2.out.2'..
+EQY 18:00:53 [<code>/eqy/test2/work] run: Proved equivalence of partition 'test2.out.2' using strategy 'sat'
+EQY 18:00:53 [<code>/eqy/test2/work] run: Running strategy 'sat' on 'test2.out.3'..
+EQY 18:00:53 [<code>/eqy/test2/work] run: Proved equivalence of partition 'test2.out.3' using strategy 'sat'
+EQY 18:00:53 [<code>/eqy/test2/work] run: Running strategy 'sat' on 'test2.out.4'..
+EQY 18:00:53 [<code>/eqy/test2/work] run: Proved equivalence of partition 'test2.out.4' using strategy 'sat'
+EQY 18:00:53 [<code>/eqy/test2/work] run: make -f strategies.mk summary
+EQY 18:00:53 [<code>/eqy/test2/work] run: make[1]: Entering directory '<code>/eqy/test2/work'
+EQY 18:00:54 [<code>/eqy/test2/work] run: make[1]: Leaving directory '<code>/eqy/test2/work'
+EQY 18:00:54 [<code>/eqy/test2/work] run: make: Leaving directory '<code>/eqy/test2/work'
+EQY 18:00:54 [<code>/eqy/test2/work] run: finished (returncode=0)
+EQY 18:00:54 [<code>/eqy/test2/work] Successfully proved equivalence of partition test2.out.4
+EQY 18:00:54 [<code>/eqy/test2/work] Successfully proved equivalence of partition test2.out.3
+EQY 18:00:54 [<code>/eqy/test2/work] Successfully proved equivalence of partition test2.out.2
+EQY 18:00:54 [<code>/eqy/test2/work] Successfully proved equivalence of partition test2.out.1
+EQY 18:00:54 [<code>/eqy/test2/work] Successfully proved equivalence of partition test2.out.0
+EQY 18:00:54 [<code>/eqy/test2/work] Successfully proved designs equivalent
+EQY 18:00:54 [<code>/eqy/test2/work] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:02 (2)
+EQY 18:00:54 [<code>/eqy/test2/work] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+EQY 18:00:54 [<code>/eqy/test2/work] DONE (PASS, rc=0)

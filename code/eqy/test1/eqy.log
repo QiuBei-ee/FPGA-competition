@@ -1,0 +1,685 @@
+EQY 17:59:21 [<code>/eqy/test1/work] read_gold: starting process "yosys -ql <code>/eqy/test1/work/gold.log <code>/eqy/test1/work/gold.ys"
+EQY 17:59:21 [<code>/eqy/test1/work] read_gold: finished (returncode=0)
+EQY 17:59:21 [<code>/eqy/test1/work] read_gate: starting process "yosys -ql <code>/eqy/test1/work/gate.log <code>/eqy/test1/work/gate.ys"
+EQY 17:59:21 [<code>/eqy/test1/work] read_gate: finished (returncode=0)
+EQY 17:59:21 [<code>/eqy/test1/work] combine: starting process "yosys -ql <code>/eqy/test1/work/combine.log <code>/eqy/test1/work/combine.ys"
+EQY 17:59:21 [<code>/eqy/test1/work] combine: finished (returncode=0)
+EQY 17:59:21 [<code>/eqy/test1/work] partition: starting process "cd <code>/eqy/test1/work; yosys -ql partition.log partition.ys"
+EQY 17:59:27 [<code>/eqy/test1/work] partition: finished (returncode=0)
+EQY 17:59:34 [<code>/eqy/test1/work] run: starting process "make -C <code>/eqy/test1/work -f strategies.mk"
+EQY 17:59:34 [<code>/eqy/test1/work] run: make: Entering directory '<code>/eqy/test1/work'
+EQY 17:59:34 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i0.0'..
+EQY 17:59:34 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i0.0' using strategy 'sat'
+EQY 17:59:34 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i0.1'..
+EQY 17:59:35 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i0.1' using strategy 'sat'
+EQY 17:59:35 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i0.10'..
+EQY 17:59:35 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i0.10' using strategy 'sat'
+EQY 17:59:35 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i0.11'..
+EQY 17:59:35 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i0.11' using strategy 'sat'
+EQY 17:59:35 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i0.2'..
+EQY 17:59:36 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i0.2' using strategy 'sat'
+EQY 17:59:36 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i0.3'..
+EQY 17:59:36 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i0.3' using strategy 'sat'
+EQY 17:59:36 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i0.4'..
+EQY 17:59:36 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i0.4' using strategy 'sat'
+EQY 17:59:36 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i0.5'..
+EQY 17:59:37 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i0.5' using strategy 'sat'
+EQY 17:59:37 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i0.6'..
+EQY 17:59:37 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i0.6' using strategy 'sat'
+EQY 17:59:37 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i0.7'..
+EQY 17:59:37 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i0.7' using strategy 'sat'
+EQY 17:59:37 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i0.8'..
+EQY 17:59:38 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i0.8' using strategy 'sat'
+EQY 17:59:38 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i0.9'..
+EQY 17:59:38 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i0.9' using strategy 'sat'
+EQY 17:59:38 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i1.0'..
+EQY 17:59:38 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i1.0' using strategy 'sat'
+EQY 17:59:38 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i1.1'..
+EQY 17:59:39 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i1.1' using strategy 'sat'
+EQY 17:59:39 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i1.10'..
+EQY 17:59:39 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i1.10' using strategy 'sat'
+EQY 17:59:39 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i1.11'..
+EQY 17:59:39 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i1.11' using strategy 'sat'
+EQY 17:59:39 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i1.2'..
+EQY 17:59:40 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i1.2' using strategy 'sat'
+EQY 17:59:40 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i1.3'..
+EQY 17:59:40 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i1.3' using strategy 'sat'
+EQY 17:59:40 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i1.4'..
+EQY 17:59:40 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i1.4' using strategy 'sat'
+EQY 17:59:40 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i1.5'..
+EQY 17:59:41 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i1.5' using strategy 'sat'
+EQY 17:59:41 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i1.6'..
+EQY 17:59:41 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i1.6' using strategy 'sat'
+EQY 17:59:41 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i1.7'..
+EQY 17:59:42 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i1.7' using strategy 'sat'
+EQY 17:59:42 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i1.8'..
+EQY 17:59:42 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i1.8' using strategy 'sat'
+EQY 17:59:42 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i1.9'..
+EQY 17:59:42 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i1.9' using strategy 'sat'
+EQY 17:59:42 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i2.0'..
+EQY 17:59:43 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i2.0' using strategy 'sat'
+EQY 17:59:43 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i2.1'..
+EQY 17:59:43 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i2.1' using strategy 'sat'
+EQY 17:59:43 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i2.10'..
+EQY 17:59:43 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i2.10' using strategy 'sat'
+EQY 17:59:43 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i2.11'..
+EQY 17:59:44 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i2.11' using strategy 'sat'
+EQY 17:59:44 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i2.2'..
+EQY 17:59:44 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i2.2' using strategy 'sat'
+EQY 17:59:44 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i2.3'..
+EQY 17:59:44 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i2.3' using strategy 'sat'
+EQY 17:59:44 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i2.4'..
+EQY 17:59:45 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i2.4' using strategy 'sat'
+EQY 17:59:45 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i2.5'..
+EQY 17:59:45 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i2.5' using strategy 'sat'
+EQY 17:59:45 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i2.6'..
+EQY 17:59:45 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i2.6' using strategy 'sat'
+EQY 17:59:45 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i2.7'..
+EQY 17:59:46 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i2.7' using strategy 'sat'
+EQY 17:59:46 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i2.8'..
+EQY 17:59:46 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i2.8' using strategy 'sat'
+EQY 17:59:46 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i2.9'..
+EQY 17:59:46 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i2.9' using strategy 'sat'
+EQY 17:59:46 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i3.0'..
+EQY 17:59:47 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i3.0' using strategy 'sat'
+EQY 17:59:47 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i3.1'..
+EQY 17:59:47 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i3.1' using strategy 'sat'
+EQY 17:59:47 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i3.10'..
+EQY 17:59:47 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i3.10' using strategy 'sat'
+EQY 17:59:47 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i3.11'..
+EQY 17:59:48 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i3.11' using strategy 'sat'
+EQY 17:59:48 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i3.2'..
+EQY 17:59:48 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i3.2' using strategy 'sat'
+EQY 17:59:48 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i3.3'..
+EQY 17:59:48 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i3.3' using strategy 'sat'
+EQY 17:59:48 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i3.4'..
+EQY 17:59:49 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i3.4' using strategy 'sat'
+EQY 17:59:49 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i3.5'..
+EQY 17:59:49 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i3.5' using strategy 'sat'
+EQY 17:59:49 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i3.6'..
+EQY 17:59:49 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i3.6' using strategy 'sat'
+EQY 17:59:49 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i3.7'..
+EQY 17:59:50 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i3.7' using strategy 'sat'
+EQY 17:59:50 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i3.8'..
+EQY 17:59:50 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i3.8' using strategy 'sat'
+EQY 17:59:50 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i3.9'..
+EQY 17:59:50 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i3.9' using strategy 'sat'
+EQY 17:59:50 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i4.0'..
+EQY 17:59:51 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i4.0' using strategy 'sat'
+EQY 17:59:51 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i4.1'..
+EQY 17:59:51 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i4.1' using strategy 'sat'
+EQY 17:59:51 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i4.10'..
+EQY 17:59:51 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i4.10' using strategy 'sat'
+EQY 17:59:51 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i4.11'..
+EQY 17:59:52 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i4.11' using strategy 'sat'
+EQY 17:59:52 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i4.2'..
+EQY 17:59:52 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i4.2' using strategy 'sat'
+EQY 17:59:52 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i4.3'..
+EQY 17:59:52 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i4.3' using strategy 'sat'
+EQY 17:59:52 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i4.4'..
+EQY 17:59:53 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i4.4' using strategy 'sat'
+EQY 17:59:53 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i4.5'..
+EQY 17:59:53 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i4.5' using strategy 'sat'
+EQY 17:59:53 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i4.6'..
+EQY 17:59:53 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i4.6' using strategy 'sat'
+EQY 17:59:53 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i4.7'..
+EQY 17:59:54 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i4.7' using strategy 'sat'
+EQY 17:59:54 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i4.8'..
+EQY 17:59:54 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i4.8' using strategy 'sat'
+EQY 17:59:54 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i4.9'..
+EQY 17:59:54 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i4.9' using strategy 'sat'
+EQY 17:59:54 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i5.0'..
+EQY 17:59:55 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i5.0' using strategy 'sat'
+EQY 17:59:55 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i5.1'..
+EQY 17:59:55 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i5.1' using strategy 'sat'
+EQY 17:59:55 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i5.10'..
+EQY 17:59:56 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i5.10' using strategy 'sat'
+EQY 17:59:56 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i5.11'..
+EQY 17:59:56 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i5.11' using strategy 'sat'
+EQY 17:59:56 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i5.2'..
+EQY 17:59:56 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i5.2' using strategy 'sat'
+EQY 17:59:56 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i5.3'..
+EQY 17:59:57 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i5.3' using strategy 'sat'
+EQY 17:59:57 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i5.4'..
+EQY 17:59:57 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i5.4' using strategy 'sat'
+EQY 17:59:57 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i5.5'..
+EQY 17:59:57 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i5.5' using strategy 'sat'
+EQY 17:59:57 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i5.6'..
+EQY 17:59:58 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i5.6' using strategy 'sat'
+EQY 17:59:58 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i5.7'..
+EQY 17:59:58 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i5.7' using strategy 'sat'
+EQY 17:59:58 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i5.8'..
+EQY 17:59:58 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i5.8' using strategy 'sat'
+EQY 17:59:58 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i5.9'..
+EQY 17:59:59 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i5.9' using strategy 'sat'
+EQY 17:59:59 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i6.0'..
+EQY 17:59:59 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i6.0' using strategy 'sat'
+EQY 17:59:59 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i6.1'..
+EQY 17:59:59 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i6.1' using strategy 'sat'
+EQY 17:59:59 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i6.10'..
+EQY 18:00:00 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i6.10' using strategy 'sat'
+EQY 18:00:00 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i6.11'..
+EQY 18:00:00 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i6.11' using strategy 'sat'
+EQY 18:00:00 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i6.2'..
+EQY 18:00:00 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i6.2' using strategy 'sat'
+EQY 18:00:00 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i6.3'..
+EQY 18:00:01 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i6.3' using strategy 'sat'
+EQY 18:00:01 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i6.4'..
+EQY 18:00:01 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i6.4' using strategy 'sat'
+EQY 18:00:01 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i6.5'..
+EQY 18:00:01 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i6.5' using strategy 'sat'
+EQY 18:00:01 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i6.6'..
+EQY 18:00:02 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i6.6' using strategy 'sat'
+EQY 18:00:02 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i6.7'..
+EQY 18:00:02 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i6.7' using strategy 'sat'
+EQY 18:00:02 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i6.8'..
+EQY 18:00:02 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i6.8' using strategy 'sat'
+EQY 18:00:02 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i6.9'..
+EQY 18:00:03 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i6.9' using strategy 'sat'
+EQY 18:00:03 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i7.0'..
+EQY 18:00:03 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i7.0' using strategy 'sat'
+EQY 18:00:03 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i7.1'..
+EQY 18:00:03 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i7.1' using strategy 'sat'
+EQY 18:00:03 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i7.10'..
+EQY 18:00:04 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i7.10' using strategy 'sat'
+EQY 18:00:04 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i7.11'..
+EQY 18:00:04 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i7.11' using strategy 'sat'
+EQY 18:00:04 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i7.2'..
+EQY 18:00:04 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i7.2' using strategy 'sat'
+EQY 18:00:04 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i7.3'..
+EQY 18:00:05 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i7.3' using strategy 'sat'
+EQY 18:00:05 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i7.4'..
+EQY 18:00:05 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i7.4' using strategy 'sat'
+EQY 18:00:05 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i7.5'..
+EQY 18:00:06 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i7.5' using strategy 'sat'
+EQY 18:00:06 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i7.6'..
+EQY 18:00:06 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i7.6' using strategy 'sat'
+EQY 18:00:06 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i7.7'..
+EQY 18:00:06 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i7.7' using strategy 'sat'
+EQY 18:00:06 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i7.8'..
+EQY 18:00:07 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i7.8' using strategy 'sat'
+EQY 18:00:07 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.i7.9'..
+EQY 18:00:07 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.i7.9' using strategy 'sat'
+EQY 18:00:07 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0007_out'..
+EQY 18:00:07 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0007_out' using strategy 'sat'
+EQY 18:00:07 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0008_out.0'..
+EQY 18:00:08 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0008_out.0' using strategy 'sat'
+EQY 18:00:08 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0008_out.1'..
+EQY 18:00:08 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0008_out.1' using strategy 'sat'
+EQY 18:00:08 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0008_out.10'..
+EQY 18:00:08 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0008_out.10' using strategy 'sat'
+EQY 18:00:08 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0008_out.11'..
+EQY 18:00:09 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0008_out.11' using strategy 'sat'
+EQY 18:00:09 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0008_out.2'..
+EQY 18:00:09 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0008_out.2' using strategy 'sat'
+EQY 18:00:09 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0008_out.3'..
+EQY 18:00:09 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0008_out.3' using strategy 'sat'
+EQY 18:00:10 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0008_out.4'..
+EQY 18:00:10 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0008_out.4' using strategy 'sat'
+EQY 18:00:10 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0008_out.5'..
+EQY 18:00:10 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0008_out.5' using strategy 'sat'
+EQY 18:00:10 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0008_out.6'..
+EQY 18:00:11 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0008_out.6' using strategy 'sat'
+EQY 18:00:11 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0008_out.7'..
+EQY 18:00:11 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0008_out.7' using strategy 'sat'
+EQY 18:00:11 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0008_out.8'..
+EQY 18:00:11 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0008_out.8' using strategy 'sat'
+EQY 18:00:11 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0008_out.9'..
+EQY 18:00:12 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0008_out.9' using strategy 'sat'
+EQY 18:00:12 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0009_out.0'..
+EQY 18:00:12 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0009_out.0' using strategy 'sat'
+EQY 18:00:12 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0009_out.1'..
+EQY 18:00:13 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0009_out.1' using strategy 'sat'
+EQY 18:00:13 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0009_out.10'..
+EQY 18:00:13 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0009_out.10' using strategy 'sat'
+EQY 18:00:13 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0009_out.11'..
+EQY 18:00:13 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0009_out.11' using strategy 'sat'
+EQY 18:00:13 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0009_out.2'..
+EQY 18:00:14 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0009_out.2' using strategy 'sat'
+EQY 18:00:14 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0009_out.3'..
+EQY 18:00:14 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0009_out.3' using strategy 'sat'
+EQY 18:00:14 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0009_out.4'..
+EQY 18:00:14 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0009_out.4' using strategy 'sat'
+EQY 18:00:14 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0009_out.5'..
+EQY 18:00:15 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0009_out.5' using strategy 'sat'
+EQY 18:00:15 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0009_out.6'..
+EQY 18:00:15 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0009_out.6' using strategy 'sat'
+EQY 18:00:15 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0009_out.7'..
+EQY 18:00:15 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0009_out.7' using strategy 'sat'
+EQY 18:00:16 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0009_out.8'..
+EQY 18:00:16 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0009_out.8' using strategy 'sat'
+EQY 18:00:16 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.inter0009_out.9'..
+EQY 18:00:16 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.inter0009_out.9' using strategy 'sat'
+EQY 18:00:16 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.por6_out'..
+EQY 18:00:17 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.por6_out' using strategy 'sat'
+EQY 18:00:17 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q0.0'..
+EQY 18:00:17 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q0.0' using strategy 'sat'
+EQY 18:00:17 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q0.1'..
+EQY 18:00:17 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q0.1' using strategy 'sat'
+EQY 18:00:17 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q0.10'..
+EQY 18:00:18 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q0.10' using strategy 'sat'
+EQY 18:00:18 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q0.11'..
+EQY 18:00:18 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q0.11' using strategy 'sat'
+EQY 18:00:18 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q0.2'..
+EQY 18:00:18 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q0.2' using strategy 'sat'
+EQY 18:00:18 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q0.3'..
+EQY 18:00:19 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q0.3' using strategy 'sat'
+EQY 18:00:19 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q0.4'..
+EQY 18:00:19 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q0.4' using strategy 'sat'
+EQY 18:00:19 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q0.5'..
+EQY 18:00:19 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q0.5' using strategy 'sat'
+EQY 18:00:19 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q0.6'..
+EQY 18:00:20 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q0.6' using strategy 'sat'
+EQY 18:00:20 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q0.7'..
+EQY 18:00:20 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q0.7' using strategy 'sat'
+EQY 18:00:20 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q0.8'..
+EQY 18:00:20 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q0.8' using strategy 'sat'
+EQY 18:00:20 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q0.9'..
+EQY 18:00:21 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q0.9' using strategy 'sat'
+EQY 18:00:21 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q1.0'..
+EQY 18:00:21 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q1.0' using strategy 'sat'
+EQY 18:00:21 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q1.1'..
+EQY 18:00:21 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q1.1' using strategy 'sat'
+EQY 18:00:21 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q1.10'..
+EQY 18:00:22 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q1.10' using strategy 'sat'
+EQY 18:00:22 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q1.11'..
+EQY 18:00:22 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q1.11' using strategy 'sat'
+EQY 18:00:22 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q1.2'..
+EQY 18:00:22 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q1.2' using strategy 'sat'
+EQY 18:00:22 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q1.3'..
+EQY 18:00:22 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q1.3' using strategy 'sat'
+EQY 18:00:22 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q1.4'..
+EQY 18:00:23 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q1.4' using strategy 'sat'
+EQY 18:00:23 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q1.5'..
+EQY 18:00:23 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q1.5' using strategy 'sat'
+EQY 18:00:23 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q1.6'..
+EQY 18:00:23 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q1.6' using strategy 'sat'
+EQY 18:00:23 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q1.7'..
+EQY 18:00:24 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q1.7' using strategy 'sat'
+EQY 18:00:24 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q1.8'..
+EQY 18:00:24 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q1.8' using strategy 'sat'
+EQY 18:00:24 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q1.9'..
+EQY 18:00:24 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q1.9' using strategy 'sat'
+EQY 18:00:24 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q2.0'..
+EQY 18:00:25 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q2.0' using strategy 'sat'
+EQY 18:00:25 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q2.1'..
+EQY 18:00:25 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q2.1' using strategy 'sat'
+EQY 18:00:25 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q2.10'..
+EQY 18:00:25 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q2.10' using strategy 'sat'
+EQY 18:00:25 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q2.11'..
+EQY 18:00:26 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q2.11' using strategy 'sat'
+EQY 18:00:26 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q2.2'..
+EQY 18:00:26 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q2.2' using strategy 'sat'
+EQY 18:00:26 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q2.3'..
+EQY 18:00:26 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q2.3' using strategy 'sat'
+EQY 18:00:26 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q2.4'..
+EQY 18:00:26 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q2.4' using strategy 'sat'
+EQY 18:00:26 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q2.5'..
+EQY 18:00:27 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q2.5' using strategy 'sat'
+EQY 18:00:27 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q2.6'..
+EQY 18:00:27 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q2.6' using strategy 'sat'
+EQY 18:00:27 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q2.7'..
+EQY 18:00:27 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q2.7' using strategy 'sat'
+EQY 18:00:27 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q2.8'..
+EQY 18:00:28 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q2.8' using strategy 'sat'
+EQY 18:00:28 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q2.9'..
+EQY 18:00:28 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q2.9' using strategy 'sat'
+EQY 18:00:28 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q3.0'..
+EQY 18:00:28 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q3.0' using strategy 'sat'
+EQY 18:00:28 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q3.1'..
+EQY 18:00:29 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q3.1' using strategy 'sat'
+EQY 18:00:29 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q3.10'..
+EQY 18:00:29 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q3.10' using strategy 'sat'
+EQY 18:00:29 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q3.11'..
+EQY 18:00:29 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q3.11' using strategy 'sat'
+EQY 18:00:29 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q3.2'..
+EQY 18:00:30 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q3.2' using strategy 'sat'
+EQY 18:00:30 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q3.3'..
+EQY 18:00:30 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q3.3' using strategy 'sat'
+EQY 18:00:30 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q3.4'..
+EQY 18:00:30 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q3.4' using strategy 'sat'
+EQY 18:00:30 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q3.5'..
+EQY 18:00:30 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q3.5' using strategy 'sat'
+EQY 18:00:30 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q3.6'..
+EQY 18:00:31 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q3.6' using strategy 'sat'
+EQY 18:00:31 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q3.7'..
+EQY 18:00:31 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q3.7' using strategy 'sat'
+EQY 18:00:31 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q3.8'..
+EQY 18:00:31 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q3.8' using strategy 'sat'
+EQY 18:00:31 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q3.9'..
+EQY 18:00:32 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q3.9' using strategy 'sat'
+EQY 18:00:32 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q4.0'..
+EQY 18:00:32 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q4.0' using strategy 'sat'
+EQY 18:00:32 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q4.1'..
+EQY 18:00:32 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q4.1' using strategy 'sat'
+EQY 18:00:32 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q4.10'..
+EQY 18:00:33 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q4.10' using strategy 'sat'
+EQY 18:00:33 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q4.11'..
+EQY 18:00:33 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q4.11' using strategy 'sat'
+EQY 18:00:33 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q4.2'..
+EQY 18:00:33 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q4.2' using strategy 'sat'
+EQY 18:00:33 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q4.3'..
+EQY 18:00:33 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q4.3' using strategy 'sat'
+EQY 18:00:33 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q4.4'..
+EQY 18:00:34 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q4.4' using strategy 'sat'
+EQY 18:00:34 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q4.5'..
+EQY 18:00:34 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q4.5' using strategy 'sat'
+EQY 18:00:34 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q4.6'..
+EQY 18:00:34 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q4.6' using strategy 'sat'
+EQY 18:00:34 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q4.7'..
+EQY 18:00:35 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q4.7' using strategy 'sat'
+EQY 18:00:35 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q4.8'..
+EQY 18:00:35 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q4.8' using strategy 'sat'
+EQY 18:00:35 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q4.9'..
+EQY 18:00:35 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q4.9' using strategy 'sat'
+EQY 18:00:35 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q5.0'..
+EQY 18:00:36 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q5.0' using strategy 'sat'
+EQY 18:00:36 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q5.1'..
+EQY 18:00:36 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q5.1' using strategy 'sat'
+EQY 18:00:36 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q5.10'..
+EQY 18:00:36 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q5.10' using strategy 'sat'
+EQY 18:00:36 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q5.11'..
+EQY 18:00:37 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q5.11' using strategy 'sat'
+EQY 18:00:37 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q5.2'..
+EQY 18:00:37 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q5.2' using strategy 'sat'
+EQY 18:00:37 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q5.3'..
+EQY 18:00:37 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q5.3' using strategy 'sat'
+EQY 18:00:37 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q5.4'..
+EQY 18:00:37 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q5.4' using strategy 'sat'
+EQY 18:00:37 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q5.5'..
+EQY 18:00:38 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q5.5' using strategy 'sat'
+EQY 18:00:38 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q5.6'..
+EQY 18:00:38 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q5.6' using strategy 'sat'
+EQY 18:00:38 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q5.7'..
+EQY 18:00:38 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q5.7' using strategy 'sat'
+EQY 18:00:38 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q5.8'..
+EQY 18:00:39 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q5.8' using strategy 'sat'
+EQY 18:00:39 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q5.9'..
+EQY 18:00:39 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q5.9' using strategy 'sat'
+EQY 18:00:39 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q6.0'..
+EQY 18:00:39 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q6.0' using strategy 'sat'
+EQY 18:00:39 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q6.1'..
+EQY 18:00:40 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q6.1' using strategy 'sat'
+EQY 18:00:40 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q6.10'..
+EQY 18:00:40 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q6.10' using strategy 'sat'
+EQY 18:00:40 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q6.11'..
+EQY 18:00:40 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q6.11' using strategy 'sat'
+EQY 18:00:40 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q6.2'..
+EQY 18:00:41 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q6.2' using strategy 'sat'
+EQY 18:00:41 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q6.3'..
+EQY 18:00:41 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q6.3' using strategy 'sat'
+EQY 18:00:41 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q6.4'..
+EQY 18:00:41 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q6.4' using strategy 'sat'
+EQY 18:00:41 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q6.5'..
+EQY 18:00:41 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q6.5' using strategy 'sat'
+EQY 18:00:41 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q6.6'..
+EQY 18:00:42 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q6.6' using strategy 'sat'
+EQY 18:00:42 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q6.7'..
+EQY 18:00:42 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q6.7' using strategy 'sat'
+EQY 18:00:42 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q6.8'..
+EQY 18:00:42 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q6.8' using strategy 'sat'
+EQY 18:00:42 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q6.9'..
+EQY 18:00:43 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q6.9' using strategy 'sat'
+EQY 18:00:43 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q7.0'..
+EQY 18:00:43 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q7.0' using strategy 'sat'
+EQY 18:00:43 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q7.1'..
+EQY 18:00:43 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q7.1' using strategy 'sat'
+EQY 18:00:43 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q7.10'..
+EQY 18:00:44 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q7.10' using strategy 'sat'
+EQY 18:00:44 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q7.11'..
+EQY 18:00:44 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q7.11' using strategy 'sat'
+EQY 18:00:44 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q7.2'..
+EQY 18:00:44 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q7.2' using strategy 'sat'
+EQY 18:00:44 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q7.3'..
+EQY 18:00:44 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q7.3' using strategy 'sat'
+EQY 18:00:44 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q7.4'..
+EQY 18:00:45 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q7.4' using strategy 'sat'
+EQY 18:00:45 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q7.5'..
+EQY 18:00:45 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q7.5' using strategy 'sat'
+EQY 18:00:45 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q7.6'..
+EQY 18:00:45 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q7.6' using strategy 'sat'
+EQY 18:00:45 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q7.7'..
+EQY 18:00:46 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q7.7' using strategy 'sat'
+EQY 18:00:46 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q7.8'..
+EQY 18:00:46 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q7.8' using strategy 'sat'
+EQY 18:00:46 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.q7.9'..
+EQY 18:00:46 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.q7.9' using strategy 'sat'
+EQY 18:00:46 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.state.0'..
+EQY 18:00:47 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.state.0' using strategy 'sat'
+EQY 18:00:47 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.state.1'..
+EQY 18:00:47 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.state.1' using strategy 'sat'
+EQY 18:00:47 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.state.2'..
+EQY 18:00:47 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.state.2' using strategy 'sat'
+EQY 18:00:47 [<code>/eqy/test1/work] run: Running strategy 'sat' on 'test1.state.3'..
+EQY 18:00:48 [<code>/eqy/test1/work] run: Proved equivalence of partition 'test1.state.3' using strategy 'sat'
+EQY 18:00:48 [<code>/eqy/test1/work] run: make -f strategies.mk summary
+EQY 18:00:48 [<code>/eqy/test1/work] run: make[1]: Entering directory '<code>/eqy/test1/work'
+EQY 18:00:50 [<code>/eqy/test1/work] run: make[1]: Leaving directory '<code>/eqy/test1/work'
+EQY 18:00:50 [<code>/eqy/test1/work] run: make: Leaving directory '<code>/eqy/test1/work'
+EQY 18:00:50 [<code>/eqy/test1/work] run: finished (returncode=0)
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.state.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.state.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.state.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.state.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q7.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q7.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q7.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q7.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q7.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q7.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q7.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q7.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q7.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q7.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q7.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q7.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q6.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q6.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q6.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q6.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q6.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q6.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q6.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q6.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q6.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q6.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q6.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q6.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q5.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q5.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q5.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q5.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q5.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q5.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q5.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q5.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q5.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q5.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q5.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q5.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q4.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q4.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q4.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q4.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q4.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q4.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q4.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q4.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q4.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q4.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q4.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q4.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q3.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q3.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q3.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q3.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q3.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q3.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q3.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q3.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q3.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q3.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q3.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q3.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q2.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q2.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q2.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q2.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q2.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q2.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q2.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q2.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q2.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q2.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q2.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q2.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q1.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q1.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q1.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q1.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q1.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q1.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q1.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q1.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q1.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q1.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q1.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q1.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q0.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q0.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q0.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q0.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q0.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q0.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q0.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q0.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q0.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q0.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q0.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.q0.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.por6_out
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0009_out.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0009_out.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0009_out.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0009_out.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0009_out.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0009_out.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0009_out.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0009_out.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0009_out.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0009_out.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0009_out.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0009_out.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0008_out.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0008_out.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0008_out.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0008_out.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0008_out.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0008_out.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0008_out.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0008_out.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0008_out.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0008_out.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0008_out.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0008_out.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.inter0007_out
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i7.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i7.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i7.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i7.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i7.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i7.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i7.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i7.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i7.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i7.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i7.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i7.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i6.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i6.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i6.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i6.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i6.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i6.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i6.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i6.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i6.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i6.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i6.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i6.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i5.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i5.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i5.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i5.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i5.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i5.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i5.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i5.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i5.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i5.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i5.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i5.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i4.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i4.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i4.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i4.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i4.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i4.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i4.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i4.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i4.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i4.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i4.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i4.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i3.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i3.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i3.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i3.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i3.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i3.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i3.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i3.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i3.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i3.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i3.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i3.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i2.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i2.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i2.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i2.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i2.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i2.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i2.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i2.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i2.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i2.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i2.1
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i2.0
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i1.11
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i1.10
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i1.9
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i1.8
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i1.7
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i1.6
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i1.5
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i1.4
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i1.3
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i1.2
+EQY 18:00:50 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i1.1
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i1.0
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i0.11
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i0.10
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i0.9
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i0.8
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i0.7
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i0.6
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i0.5
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i0.4
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i0.3
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i0.2
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i0.1
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved equivalence of partition test1.i0.0
+EQY 18:00:51 [<code>/eqy/test1/work] Successfully proved designs equivalent
+EQY 18:00:51 [<code>/eqy/test1/work] summary: Elapsed clock time [H:MM:SS (secs)]: 0:01:29 (89)
+EQY 18:00:51 [<code>/eqy/test1/work] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:12 (12)
+EQY 18:00:51 [<code>/eqy/test1/work] DONE (PASS, rc=0)
